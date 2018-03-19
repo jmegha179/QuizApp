@@ -1,0 +1,48 @@
+
+<head>
+  <link rel = "stylesheet" href = "../Css/quiz.css">
+  </head>
+<div id="log">
+  <br>
+  <form name="myForm" id="up" novalidate>
+    <div ng-controller="question">
+      <br>
+      <h4>
+        <label style="margin-left:15px">Name :</label>
+        <input type="text" ng-model="Name" size=9>
+        <label style="margin-left:25px">Quiz-id :</label>
+        <input type="text" ng-model="id" size=9>
+        <label style="margin-left:25px">Password : </label>
+        <input type="password" ng-model="password" size=9>
+      </h4>
+      <hr>
+      <br>
+      <center>
+        <button ng-click="Question()">Start Quiz Now</button>
+      </center>
+      <br>
+      <h4> Question#{{index+1}} </h4>
+      <input type="text" ng-model="name[index].question" size=100>
+      <br>
+      <input type="radio" name="answer" value="{{name[index].options[0]}}"> {{name[index].options[0]}}
+      <br>
+      <input type="radio" name="answer" value="{{name[index].options[1]}}"> {{name[index].options[1]}}
+      <br>
+      <input type="radio" name="answer" value="{{name[index].options[2]}}"> {{name[index].options[2]}}
+      <br>
+      <input type="radio" name="answer" value="{{name[index].options[3]}}"> {{name[index].options[3]}}
+      <br>
+       <center>
+        <button ng-click="checkAnswer(index)">Submit</button>
+      </center>
+      <hr>
+      <h5>
+        <button ng-click="next()">Next</button>
+
+        <button ng-click="previous()">Previous</button>
+      </h5>
+      </div>
+    <br>
+  </form>
+</div>
+</body>

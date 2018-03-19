@@ -1,0 +1,21 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "author": "Megha",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-ui-router": "^1.0.3",
+    "bootstrap": "^4.0.0",
+    "javascript-quiz-using-json": "^0.5.1-alpha",
+    "jquery": "^3.3.1",
+    "lite-server": "^2.3.0",
+    "nodeman": "^1.1.2"
+  }
+}

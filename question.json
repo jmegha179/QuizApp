@@ -1,0 +1,125 @@
+    {  "questions"  : [ {
+
+  "question":" 1 .Which of the following is true about ng-bind directive?",
+ 
+  "options":
+    [
+      "ng-bind directive binds the AngularJS Application data to HTML tags ",
+      "ng-bind updates the model created by ng-model directive to be displayed in the html tag ",
+      "ng-bind updates html control data when controller changes the model",
+      "All of the above."     
+    ],
+    "answer": 4
+    
+ },
+{
+"question": "2.Which of the following directive bootstraps AngularJS framework? .",
+ "options":
+  [ "ng-init",
+    "ng-app",
+    "ng-controller",
+    "ng-bootstrap"
+    ],
+    "answer": 4
+
+},
+{
+  "question": "3.  How angular.module works?.",
+   "options":
+    [
+      "angular.module is used to create AngularJS modules along with its dependent modules ",
+       "angular.module is primarily used to create application module",
+       " Both of the above.",
+        "None of the above."
+      ],
+      "answer": 3 
+  
+  },
+  {
+    "question": "4. Which of the following is true about ng-include directive?",
+     "options":
+      [
+        " Embed HTML pages within a HTML page using ng-include directive",
+          "Embed JS files within a HTML page using ng-include directive",
+        " Both of the above.",
+        " None of the above."
+        ],
+        "answer": 1
+    
+    },
+    {
+      "question": "5. Which components can be injected as a dependency in AngularJS.",
+       "options":
+        [
+          " Application Module", 
+          " constant",
+           " value" ,
+           " factory"
+          ],
+          "answer": 4
+      
+      },
+      {
+        "question": "6.Which of the following is a valid AngularJS expression?",
+         "options":
+          [
+             "{{ 2 + 2 }}",
+             "{ 2 + 2 }",
+             "(( 2 + 2 ))",
+             "{ (2 + 2) }"
+           ],
+            "answer": 1 
+        
+        },
+      {
+        "question": "7. Which of the following statements are true?",
+        "options":
+         [
+             "Expression cannot contain condition, loop or RegEx",
+             "Expression cannot declare a function",
+             "Expression cannot contain comma, void or return keyword",
+             "All of the above"
+           ],
+           "answer": 1
+       
+       },
+       {
+        "question": "8. AngularJS directives can be written in HTML element as:.",
+        "options":
+         [
+             " Tag",
+             " Attribute",
+             "Class name",
+             "All of the above"
+           ],
+           "answer": 4
+       
+       },
+       
+       {
+        "question": "9. The ng-model directive is used for __________.",
+        "options":
+         [
+            " One-way data binding",
+             "Two-way data binding",
+             "Binding view to controller",
+             "None of the above"
+           ],
+           "answer": 2
+       
+       },
+       {
+        "question": "10. What is $scope?",
+        "options":
+         [
+           "It transfers data between a controller and view ",
+            "It transfers data between model and controller",
+            " It is a global scope in AngularJS",
+             "None of the above"
+           ],
+           "answer": 2
+       
+       }
+       
+  ]}
+ 
